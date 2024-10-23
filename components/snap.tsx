@@ -89,7 +89,9 @@ export default function SnapScroll() {
       {sections.map((section, index) => (
         <div
           key={section.id}
-          ref={(el: any) => (observerRefs.current[index] = el)}
+          ref={(el) => {
+            observerRefs.current[index] = el;
+          }}
           className={`h-screen w-full flex flex-col gap-12 items-center justify-center snap-start ${section.color}`}
         >
           <h2 className="text-5xl font-bold text-white">{section.title}</h2>
