@@ -37,7 +37,7 @@ const sections = [
     title: "Ne te mets pas trop de pression",
     content:
       "Peu importe le moment dans ta vie, peu importe la situation, peu importe le contexte, peu importe les conséquences, ne te mets pas de pression. Surtout ne te mets pas TROP de pression. La pression tue la logique et la raison. Tu dois te concentrer sur ce qui te semble le plus important et sur ce qui te permet de vivre une vie heureuse.",
-    color: "bg-brown-500",
+    color: "bg-fuchsia-500",
   },
   {
     id: 6,
@@ -94,8 +94,10 @@ export default function SnapScroll() {
           }}
           className={`h-screen w-full flex flex-col gap-12 items-center justify-center snap-start ${section.color}`}
         >
-          <h2 className="text-5xl font-bold text-white">{section.title}</h2>
-          <p className="max-w-xl text-lg font-medium text-center">
+          <h2 className="text-center text-5xl font-bold text-white">
+            {section.title}
+          </h2>
+          <p className="max-w-xl text-white text-lg font-medium text-center">
             {section.content}
           </p>
         </div>
