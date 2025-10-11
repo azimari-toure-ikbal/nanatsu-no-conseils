@@ -43,7 +43,7 @@ const sections = [
     id: 6,
     title: "Apprends à t'aimer",
     content:
-      "It's Self Love o'clock. Prends toujours le temps de te féliciter, de te cheer, de te rappeler à toi même que tu fais de ton mieux au quotidien. Certes la vie n'est pas facile mais elle l'est encore moins quand on est son propre ennemie... Et si d'autres sont en mesure de t'aimer (Faby, Aminata, Antonio, Moi, ...) alors c'est que tu en es capable.",
+      "It's Self Love o'clock. Prends toujours le temps de te féliciter, de te cheer, de te rappeler à toi même que tu fais de ton mieux au quotidien. Certes la vie n'est pas facile mais elle l'est encore moins quand on est son propre ennemie... Et si d'autres sont en mesure de t'aimer alors c'est que tu en es capable.",
     color: "bg-indigo-500",
   },
   {
